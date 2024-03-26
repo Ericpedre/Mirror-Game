@@ -57,3 +57,6 @@ func _physics_process(delta):
 	
 	move_and_slide()
 	force_update_transform()
+	
+func player():
+	pass

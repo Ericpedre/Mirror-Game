@@ -1,8 +1,9 @@
-[gd_scene load_steps=19 format=3 uid="uid://ga4brol6kes6"]
+[gd_scene load_steps=20 format=3 uid="uid://ga4brol6kes6"]
 
 [ext_resource type="PackedScene" uid="uid://doh0w0if3r85g" path="res://scenes/character.tscn" id="1_gn5b7"]
 [ext_resource type="Shader" uid="uid://dtq8vkrpvuqfj" path="res://gridmaterial.tres" id="2_1q4i6"]
 [ext_resource type="Script" path="res://script/animation.gd" id="3_l8b0d"]
+[ext_resource type="PackedScene" uid="uid://cu2e0bmh7e22j" path="res://scenes/enemy.tscn" id="4_ti17k"]
 
 [sub_resource type="Environment" id="Environment_g3bud"]
 background_mode = 1
@@ -314,3 +315,6 @@ transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 7.74062,
 alpha_cut = 2
 text = "Finish"
 font_size = 64
+
+[node name="enemy" parent="." instance=ExtResource("4_ti17k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44229, 4.86714, 15.2311)
