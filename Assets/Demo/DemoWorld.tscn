@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://0576fim4xnjw"]
 
-[ext_resource type="Script" path="res://Demo/MainCamera.gd" id="1"]
+[ext_resource type="Script" path="res://Assets/Demo/MainCamera.gd" id="1"]
 [ext_resource type="Script" path="res://addons/Mirror/Mirror/Mirror.gd" id="2"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_omm3q"]

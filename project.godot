@@ -18,6 +18,9 @@ config/icon="res://icon.svg"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/Mirror/plugin.cfg")
+[dotnet]
+
+project/assembly_name="Basic3dStarter"
 
 [input]
 
